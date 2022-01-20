@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Decoderto7segment C:/.Xilinx/test00/Decoderto7segment.sch C:/.Xilinx/test00/Decoderto7segment.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog Decoderto7segment_drc.vf -w C:/.Xilinx/test00/Decoderto7segment.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym Decoderto7segment C:/.Xilinx/test00/Decoderto7segment.sch C:/.Xilinx/test00/Decoderto7segment.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Decoderto7segment C:/.Xilinx/test00/Decoderto7segment.sch C:/.Xilinx/test00/Decoderto7segment.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Decoderto7segment C:/.Xilinx/test00/Decoderto7segment.sch C:/.Xilinx/test00/Decoderto7segment.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Decoderto7segment C:/.Xilinx/test00/Decoderto7segment.sch C:/.Xilinx/test00/Decoderto7segment.sym 

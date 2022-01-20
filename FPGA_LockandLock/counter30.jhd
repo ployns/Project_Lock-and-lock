@@ -1,0 +1,9 @@
+MODULE counter30
+	SUBMODULE Decoderto7segment2
+		INSTANCE XLXI_59
+	SUBMODULE Decoderto7segment3
+		INSTANCE XLXI_60
+	SUBMODULE clockdiv
+		INSTANCE XLXI_51
+	SUBMODULE clockdivtest
+		INSTANCE XLXI_62

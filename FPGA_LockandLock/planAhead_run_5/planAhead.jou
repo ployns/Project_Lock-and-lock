@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Dec 17 03:32:14 2020
+# Process ID: 15444
+# Log file: C:/.Xilinx/test00/planAhead_run_5/planAhead.log
+# Journal file: C:/.Xilinx/test00/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/.Xilinx/test00/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P41 [get_ports A]
+endgroup
+startgroup
+set_property package_pin P40 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P35 [get_ports C]
+endgroup
+startgroup
+set_property package_pin P34 [get_ports D]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports E]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports F]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports G]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports E]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports Enter]
+endgroup
+startgroup
+set_property package_pin P83 [get_ports BuzzerReal]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports comm2]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports comm4]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports comm2]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports comm4]
+endgroup
+startgroup
+set_property package_pin P82 [get_ports LED]
+endgroup
+startgroup
+set_property package_pin P81 [get_ports LedSetpass]
+endgroup
+startgroup
+set_property package_pin P80 [get_ports LedPasstrue]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports Lock]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports Mode]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports OSC123]
+endgroup
+startgroup
+set_property package_pin P66 [get_ports SW1]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports SW2]
+endgroup
+startgroup
+set_property package_pin P61 [get_ports SW3]
+endgroup
+startgroup
+set_property package_pin P59 [get_ports SW4]
+endgroup
+startgroup
+set_property package_pin P58 [get_ports SW5]
+endgroup
+startgroup
+set_property package_pin P57 [get_ports SW6]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports SW7]
+endgroup
+startgroup
+set_property package_pin P55 [get_ports SW8]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports Unlock]
+endgroup
+set_property is_loc_fixed false [get_ports [list  Unlock]]
+set_property is_loc_fixed true [get_ports [list  Unlock]]
+save_constraints
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

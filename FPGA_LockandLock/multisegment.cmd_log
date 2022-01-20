@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym multisegment C:/.Xilinx/test00/multisegment.sch C:/.Xilinx/test00/multisegment.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog multisegment_drc.vf -w C:/.Xilinx/test00/multisegment.sch 

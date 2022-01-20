@@ -1,0 +1,199 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : CD2_drc.vf
+// /___/   /\     Timestamp : 12/15/2020 15:06:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog CD2_drc.vf -w C:/.Xilinx/test00/CD2.sch
+//Design Name: CD2
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module CD2(Clock_in, 
+           Clockdiv_out);
+
+    input Clock_in;
+   output Clockdiv_out;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_18;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_37;
+   wire XLXN_38;
+   wire XLXN_39;
+   wire XLXN_40;
+   wire XLXN_48;
+   wire XLXN_96;
+   wire XLXN_101;
+   wire XLXN_108;
+   wire XLXN_110;
+   wire XLXN_112;
+   wire XLXN_113;
+   wire XLXN_114;
+   wire XLXN_115;
+   wire XLXN_116;
+   wire XLXN_117;
+   wire XLXN_118;
+   wire XLXN_122;
+   wire XLXN_123;
+   wire XLXN_124;
+   wire XLXN_134;
+   wire XLXN_137;
+   wire XLXN_138;
+   wire XLXN_140;
+   wire XLXN_141;
+   wire XLXN_142;
+   wire XLXN_145;
+   wire XLXN_146;
+   wire XLXN_148;
+   wire XLXN_149;
+   wire XLXN_150;
+   wire XLXN_152;
+   wire XLXN_153;
+   wire XLXN_155;
+   wire XLXN_156;
+   wire XLXN_157;
+   wire Clockdiv_out_DUMMY;
+   
+   assign Clockdiv_out = Clockdiv_out_DUMMY;
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(XLXN_2), 
+              .D(XLXN_31), 
+              .Q(XLXN_3));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(XLXN_4), 
+              .D(XLXN_33), 
+              .Q(XLXN_5));
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(XLXN_96), 
+              .D(XLXN_39), 
+              .Q(XLXN_101));
+   FD #( .INIT(1'b0) ) XLXI_4 (.C(XLXN_101), 
+              .D(XLXN_40), 
+              .Q(XLXN_108));
+   FD #( .INIT(1'b0) ) XLXI_5 (.C(XLXN_5), 
+              .D(XLXN_34), 
+              .Q(XLXN_48));
+   FD #( .INIT(1'b0) ) XLXI_6 (.C(XLXN_3), 
+              .D(XLXN_32), 
+              .Q(XLXN_4));
+   FD #( .INIT(1'b0) ) XLXI_7 (.C(Clock_in), 
+              .D(XLXN_29), 
+              .Q(XLXN_1));
+   FD #( .INIT(1'b0) ) XLXI_8 (.C(XLXN_1), 
+              .D(XLXN_30), 
+              .Q(XLXN_2));
+   INV  XLXI_9 (.I(XLXN_1), 
+               .O(XLXN_29));
+   INV  XLXI_10 (.I(XLXN_2), 
+                .O(XLXN_30));
+   FD #( .INIT(1'b0) ) XLXI_19 (.C(XLXN_18), 
+               .D(XLXN_38), 
+               .Q(XLXN_96));
+   FD #( .INIT(1'b0) ) XLXI_20 (.C(XLXN_48), 
+               .D(XLXN_37), 
+               .Q(XLXN_18));
+   INV  XLXI_21 (.I(XLXN_3), 
+                .O(XLXN_31));
+   INV  XLXI_22 (.I(XLXN_4), 
+                .O(XLXN_32));
+   INV  XLXI_23 (.I(XLXN_5), 
+                .O(XLXN_33));
+   INV  XLXI_24 (.I(XLXN_48), 
+                .O(XLXN_34));
+   INV  XLXI_27 (.I(XLXN_18), 
+                .O(XLXN_37));
+   INV  XLXI_28 (.I(XLXN_96), 
+                .O(XLXN_38));
+   INV  XLXI_29 (.I(XLXN_101), 
+                .O(XLXN_39));
+   INV  XLXI_30 (.I(XLXN_108), 
+                .O(XLXN_40));
+   FD #( .INIT(1'b0) ) XLXI_51 (.C(XLXN_108), 
+               .D(XLXN_156), 
+               .Q(XLXN_110));
+   FD #( .INIT(1'b0) ) XLXI_52 (.C(XLXN_110), 
+               .D(XLXN_157), 
+               .Q(XLXN_112));
+   FD #( .INIT(1'b0) ) XLXI_53 (.C(XLXN_112), 
+               .D(XLXN_134), 
+               .Q(XLXN_113));
+   FD #( .INIT(1'b0) ) XLXI_54 (.C(XLXN_113), 
+               .D(XLXN_137), 
+               .Q(XLXN_114));
+   FD #( .INIT(1'b0) ) XLXI_55 (.C(XLXN_114), 
+               .D(XLXN_138), 
+               .Q(XLXN_115));
+   FD #( .INIT(1'b0) ) XLXI_56 (.C(XLXN_115), 
+               .D(XLXN_140), 
+               .Q(XLXN_116));
+   FD #( .INIT(1'b0) ) XLXI_57 (.C(XLXN_116), 
+               .D(XLXN_141), 
+               .Q(XLXN_117));
+   FD #( .INIT(1'b0) ) XLXI_58 (.C(XLXN_117), 
+               .D(XLXN_142), 
+               .Q(XLXN_118));
+   FD #( .INIT(1'b0) ) XLXI_59 (.C(XLXN_118), 
+               .D(XLXN_146), 
+               .Q(XLXN_145));
+   FD #( .INIT(1'b0) ) XLXI_60 (.C(XLXN_145), 
+               .D(XLXN_149), 
+               .Q(XLXN_148));
+   FD #( .INIT(1'b0) ) XLXI_61 (.C(XLXN_148), 
+               .D(XLXN_150), 
+               .Q(XLXN_122));
+   FD #( .INIT(1'b0) ) XLXI_62 (.C(XLXN_122), 
+               .D(XLXN_152), 
+               .Q(XLXN_123));
+   FD #( .INIT(1'b0) ) XLXI_63 (.C(XLXN_123), 
+               .D(XLXN_153), 
+               .Q(XLXN_124));
+   FD #( .INIT(1'b0) ) XLXI_64 (.C(XLXN_124), 
+               .D(XLXN_155), 
+               .Q(Clockdiv_out_DUMMY));
+   INV  XLXI_65 (.I(XLXN_113), 
+                .O(XLXN_134));
+   INV  XLXI_66 (.I(XLXN_114), 
+                .O(XLXN_137));
+   INV  XLXI_67 (.I(XLXN_115), 
+                .O(XLXN_138));
+   INV  XLXI_68 (.I(XLXN_116), 
+                .O(XLXN_140));
+   INV  XLXI_69 (.I(XLXN_117), 
+                .O(XLXN_141));
+   INV  XLXI_70 (.I(XLXN_118), 
+                .O(XLXN_142));
+   INV  XLXI_71 (.I(XLXN_145), 
+                .O(XLXN_146));
+   INV  XLXI_72 (.I(XLXN_148), 
+                .O(XLXN_149));
+   INV  XLXI_73 (.I(XLXN_122), 
+                .O(XLXN_150));
+   INV  XLXI_74 (.I(XLXN_123), 
+                .O(XLXN_152));
+   INV  XLXI_75 (.I(XLXN_124), 
+                .O(XLXN_153));
+   INV  XLXI_76 (.I(Clockdiv_out_DUMMY), 
+                .O(XLXN_155));
+   INV  XLXI_77 (.I(XLXN_110), 
+                .O(XLXN_156));
+   INV  XLXI_78 (.I(XLXN_112), 
+                .O(XLXN_157));
+endmodule

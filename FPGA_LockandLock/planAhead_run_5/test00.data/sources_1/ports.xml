@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="Enter" Dir="IN"/>
+		<Port Id="Lock" Dir="IN"/>
+		<Port Id="Mode" Dir="IN"/>
+		<Port Id="OSC123" Dir="IN"/>
+		<Port Id="SW1" Dir="IN"/>
+		<Port Id="SW2" Dir="IN"/>
+		<Port Id="SW3" Dir="IN"/>
+		<Port Id="SW4" Dir="IN"/>
+		<Port Id="SW5" Dir="IN"/>
+		<Port Id="SW6" Dir="IN"/>
+		<Port Id="SW7" Dir="IN"/>
+		<Port Id="SW8" Dir="IN"/>
+		<Port Id="A" Dir="OUT"/>
+		<Port Id="B" Dir="OUT"/>
+		<Port Id="BuzzerReal" Dir="OUT"/>
+		<Port Id="C" Dir="OUT"/>
+		<Port Id="comm2" Dir="OUT"/>
+		<Port Id="comm4" Dir="OUT"/>
+		<Port Id="D" Dir="OUT"/>
+		<Port Id="E" Dir="OUT"/>
+		<Port Id="F" Dir="OUT"/>
+		<Port Id="G" Dir="OUT"/>
+		<Port Id="LED" Dir="OUT"/>
+		<Port Id="LedPasstrue" Dir="OUT"/>
+		<Port Id="LedSetpass" Dir="OUT"/>
+		<Port Id="Unlock" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

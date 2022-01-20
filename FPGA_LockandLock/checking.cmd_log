@@ -1,0 +1,8 @@
+sch2sym -intstyle ise -family spartan6 -refsym checking C:/.Xilinx/test00/checking.sch C:/.Xilinx/test00/checking.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog checking_drc.vf -w C:/.Xilinx/test00/checking.sch 
+sch2sym -intstyle ise -family spartan6 -refsym checking C:/.Xilinx/test00/checking.sch C:/.Xilinx/test00/checking.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog checking_drc.vf -w C:/.Xilinx/test00/checking.sch 
+sch2sym -intstyle ise -family spartan6 -refsym checking C:/.Xilinx/test00/checking.sch C:/.Xilinx/test00/checking.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checking C:/.Xilinx/test00/checking.sch C:/.Xilinx/test00/checking.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checking C:/.Xilinx/test00/checking.sch C:/.Xilinx/test00/checking.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checking C:/.Xilinx/test00/checking.sch C:/.Xilinx/test00/checking.sym 

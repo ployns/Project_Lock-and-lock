@@ -1,0 +1,17 @@
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog checkpass_drc.vf -w C:/.Xilinx/test00/checkpass.sch 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog checkpass_drc.vf -w C:/.Xilinx/test00/checkpass.sch 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog checkpass_drc.vf -w C:/.Xilinx/test00/checkpass.sch 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym checkpass C:/.Xilinx/test00/checkpass.sch C:/.Xilinx/test00/checkpass.sym 

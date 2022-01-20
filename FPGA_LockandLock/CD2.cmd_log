@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym CD2 C:/.Xilinx/test00/CD2.sch C:/.Xilinx/test00/CD2.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog CD2_drc.vf -w C:/.Xilinx/test00/CD2.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym CD2 C:/.Xilinx/test00/CD2.sch C:/.Xilinx/test00/CD2.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym CD2 C:/.Xilinx/test00/CD2.sch C:/.Xilinx/test00/CD2.sym 

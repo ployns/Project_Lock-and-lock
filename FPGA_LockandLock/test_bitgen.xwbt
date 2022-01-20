@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Lab-digital\Project_LockandLock\FPGA_LockandLock\test.ncd
+OUTFILE=D:\Lab-digital\Project_LockandLock\FPGA_LockandLock\test.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=D:\Lab-digital\Project_LockandLock\FPGA_LockandLock
+LICENSE=WebPack
+USER_INFO=__0_0_0

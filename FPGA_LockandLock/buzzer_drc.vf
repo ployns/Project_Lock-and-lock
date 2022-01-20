@@ -1,0 +1,106 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : buzzer_drc.vf
+// /___/   /\     Timestamp : 12/15/2020 10:53:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan6 -verilog buzzer_drc.vf -w C:/.Xilinx/test00/buzzer.sch
+//Design Name: buzzer
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_buzzer(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module counter_MUSER_buzzer(Buzzer, 
+                            Enter, 
+                            BuzzerReal);
+
+    input Buzzer;
+    input Enter;
+   output BuzzerReal;
+   
+   wire XLXN_58;
+   wire XLXN_60;
+   wire XLXN_63;
+   
+   (* HU_SET = "XLXI_7_0" *) 
+   FJKC_HXILINX_buzzer  XLXI_7 (.C(XLXN_63), 
+                               .CLR(XLXN_60), 
+                               .J(Buzzer), 
+                               .K(XLXN_58), 
+                               .Q(BuzzerReal));
+   GND  XLXI_14 (.G(XLXN_60));
+   INV  XLXI_19 (.I(Buzzer), 
+                .O(XLXN_58));
+   AND2  XLXI_20 (.I0(Enter), 
+                 .I1(Buzzer), 
+                 .O(XLXN_63));
+endmodule
+`timescale 1ns / 1ps
+
+module buzzer(Buzzer, 
+              Enter, 
+              BuzzerReal);
+
+    input Buzzer;
+    input Enter;
+   output BuzzerReal;
+   
+   wire XLXN_19;
+   wire XLXN_21;
+   
+   AND2  XLXI_3 (.I0(XLXN_19), 
+                .I1(Enter), 
+                .O(XLXN_21));
+   INV  XLXI_4 (.I(Buzzer), 
+               .O(XLXN_19));
+   counter_MUSER_buzzer  XLXI_9 (.Buzzer(XLXN_21), 
+                                .Enter(), 
+                                .BuzzerReal(BuzzerReal));
+endmodule

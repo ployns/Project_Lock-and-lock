@@ -1,0 +1,3 @@
+MODULE setpass
+	SUBMODULE checking
+		INSTANCE XLXI_25

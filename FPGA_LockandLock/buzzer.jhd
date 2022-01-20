@@ -1,0 +1,3 @@
+MODULE buzzer
+	SUBMODULE counter
+		INSTANCE XLXI_10

@@ -1,0 +1,107 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : checking.vf
+// /___/   /\     Timestamp : 12/05/2021 14:37:44
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "D:/Lab-digital/FPGA_SMRAT EZ PASSWORD/checking.vf" -w "D:/Lab-digital/FPGA_SMRAT EZ PASSWORD/checking.sch"
+//Design Name: checking
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module checking(checkpass1, 
+                checkpass2, 
+                checkpass3, 
+                checkpass4, 
+                checkpass5, 
+                checkpass6, 
+                checkpass7, 
+                checkpass8, 
+                pass1, 
+                pass2, 
+                pass3, 
+                pass4, 
+                pass5, 
+                pass6, 
+                pass7, 
+                pass8, 
+                Outchecking);
+
+    input checkpass1;
+    input checkpass2;
+    input checkpass3;
+    input checkpass4;
+    input checkpass5;
+    input checkpass6;
+    input checkpass7;
+    input checkpass8;
+    input pass1;
+    input pass2;
+    input pass3;
+    input pass4;
+    input pass5;
+    input pass6;
+    input pass7;
+    input pass8;
+   output Outchecking;
+   
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_20;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_27;
+   wire XLXN_28;
+   
+   XNOR2  XLXI_1 (.I0(checkpass1), 
+                 .I1(pass1), 
+                 .O(XLXN_18));
+   XNOR2  XLXI_2 (.I0(checkpass2), 
+                 .I1(pass2), 
+                 .O(XLXN_19));
+   XNOR2  XLXI_3 (.I0(checkpass3), 
+                 .I1(pass3), 
+                 .O(XLXN_20));
+   XNOR2  XLXI_4 (.I0(checkpass4), 
+                 .I1(pass4), 
+                 .O(XLXN_21));
+   XNOR2  XLXI_5 (.I0(checkpass5), 
+                 .I1(pass5), 
+                 .O(XLXN_22));
+   XNOR2  XLXI_6 (.I0(checkpass6), 
+                 .I1(pass6), 
+                 .O(XLXN_23));
+   XNOR2  XLXI_7 (.I0(checkpass7), 
+                 .I1(pass7), 
+                 .O(XLXN_24));
+   XNOR2  XLXI_8 (.I0(checkpass8), 
+                 .I1(pass8), 
+                 .O(XLXN_25));
+   AND5  XLXI_9 (.I0(XLXN_22), 
+                .I1(XLXN_21), 
+                .I2(XLXN_20), 
+                .I3(XLXN_19), 
+                .I4(XLXN_18), 
+                .O(XLXN_27));
+   AND3  XLXI_10 (.I0(XLXN_25), 
+                 .I1(XLXN_24), 
+                 .I2(XLXN_23), 
+                 .O(XLXN_28));
+   AND2  XLXI_11 (.I0(XLXN_28), 
+                 .I1(XLXN_27), 
+                 .O(Outchecking));
+endmodule

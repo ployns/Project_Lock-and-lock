@@ -1,0 +1,61 @@
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog counter_drc.vf -w C:/.Xilinx/test00/counter.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym counter C:/.Xilinx/test00/counter.sch C:/.Xilinx/test00/counter.sym 

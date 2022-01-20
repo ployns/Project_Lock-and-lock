@@ -1,0 +1,299 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : setpass.vf
+// /___/   /\     Timestamp : 12/05/2021 14:37:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "D:/Lab-digital/FPGA_SMRAT EZ PASSWORD/setpass.vf" -w "D:/Lab-digital/FPGA_SMRAT EZ PASSWORD/setpass.sch"
+//Design Name: setpass
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_setpass(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module checking_MUSER_setpass(checkpass1, 
+                              checkpass2, 
+                              checkpass3, 
+                              checkpass4, 
+                              checkpass5, 
+                              checkpass6, 
+                              checkpass7, 
+                              checkpass8, 
+                              pass1, 
+                              pass2, 
+                              pass3, 
+                              pass4, 
+                              pass5, 
+                              pass6, 
+                              pass7, 
+                              pass8, 
+                              Outchecking);
+
+    input checkpass1;
+    input checkpass2;
+    input checkpass3;
+    input checkpass4;
+    input checkpass5;
+    input checkpass6;
+    input checkpass7;
+    input checkpass8;
+    input pass1;
+    input pass2;
+    input pass3;
+    input pass4;
+    input pass5;
+    input pass6;
+    input pass7;
+    input pass8;
+   output Outchecking;
+   
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_20;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_27;
+   wire XLXN_28;
+   
+   XNOR2  XLXI_1 (.I0(checkpass1), 
+                 .I1(pass1), 
+                 .O(XLXN_18));
+   XNOR2  XLXI_2 (.I0(checkpass2), 
+                 .I1(pass2), 
+                 .O(XLXN_19));
+   XNOR2  XLXI_3 (.I0(checkpass3), 
+                 .I1(pass3), 
+                 .O(XLXN_20));
+   XNOR2  XLXI_4 (.I0(checkpass4), 
+                 .I1(pass4), 
+                 .O(XLXN_21));
+   XNOR2  XLXI_5 (.I0(checkpass5), 
+                 .I1(pass5), 
+                 .O(XLXN_22));
+   XNOR2  XLXI_6 (.I0(checkpass6), 
+                 .I1(pass6), 
+                 .O(XLXN_23));
+   XNOR2  XLXI_7 (.I0(checkpass7), 
+                 .I1(pass7), 
+                 .O(XLXN_24));
+   XNOR2  XLXI_8 (.I0(checkpass8), 
+                 .I1(pass8), 
+                 .O(XLXN_25));
+   AND5  XLXI_9 (.I0(XLXN_22), 
+                .I1(XLXN_21), 
+                .I2(XLXN_20), 
+                .I3(XLXN_19), 
+                .I4(XLXN_18), 
+                .O(XLXN_27));
+   AND3  XLXI_10 (.I0(XLXN_25), 
+                 .I1(XLXN_24), 
+                 .I2(XLXN_23), 
+                 .O(XLXN_28));
+   AND2  XLXI_11 (.I0(XLXN_28), 
+                 .I1(XLXN_27), 
+                 .O(Outchecking));
+endmodule
+`timescale 1ns / 1ps
+
+module setpass(checkpass1, 
+               checkpass2, 
+               checkpass3, 
+               checkpass4, 
+               checkpass5, 
+               checkpass6, 
+               checkpass7, 
+               checkpass8, 
+               Enable, 
+               Enter, 
+               Lock, 
+               Mode, 
+               pass1, 
+               pass2, 
+               pass3, 
+               pass4, 
+               pass5, 
+               pass6, 
+               pass7, 
+               pass8, 
+               newpass1, 
+               newpass2, 
+               newpass3, 
+               newpass4, 
+               newpass5, 
+               newpass6, 
+               newpass7, 
+               newpass8, 
+               passtrue, 
+               setpass);
+
+    input checkpass1;
+    input checkpass2;
+    input checkpass3;
+    input checkpass4;
+    input checkpass5;
+    input checkpass6;
+    input checkpass7;
+    input checkpass8;
+    input Enable;
+    input Enter;
+    input Lock;
+    input Mode;
+    input pass1;
+    input pass2;
+    input pass3;
+    input pass4;
+    input pass5;
+    input pass6;
+    input pass7;
+    input pass8;
+   output newpass1;
+   output newpass2;
+   output newpass3;
+   output newpass4;
+   output newpass5;
+   output newpass6;
+   output newpass7;
+   output newpass8;
+   output passtrue;
+   output setpass;
+   
+   wire XLXN_21;
+   wire XLXN_30;
+   wire XLXN_64;
+   wire XLXN_65;
+   wire XLXN_66;
+   wire XLXN_67;
+   wire XLXN_68;
+   wire XLXN_83;
+   wire XLXN_87;
+   wire XLXN_88;
+   wire passtrue_DUMMY;
+   wire setpass_DUMMY;
+   
+   assign passtrue = passtrue_DUMMY;
+   assign setpass = setpass_DUMMY;
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(XLXN_66), 
+              .D(pass1), 
+              .Q(newpass1));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(XLXN_66), 
+              .D(pass2), 
+              .Q(newpass2));
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(XLXN_66), 
+              .D(pass3), 
+              .Q(newpass3));
+   FD #( .INIT(1'b0) ) XLXI_4 (.C(XLXN_66), 
+              .D(pass4), 
+              .Q(newpass4));
+   FD #( .INIT(1'b0) ) XLXI_8 (.C(XLXN_66), 
+              .D(pass6), 
+              .Q(newpass6));
+   FD #( .INIT(1'b0) ) XLXI_9 (.C(XLXN_66), 
+              .D(pass7), 
+              .Q(newpass7));
+   FD #( .INIT(1'b0) ) XLXI_10 (.C(XLXN_66), 
+               .D(pass8), 
+               .Q(newpass8));
+   FD #( .INIT(1'b0) ) XLXI_11 (.C(XLXN_66), 
+               .D(pass5), 
+               .Q(newpass5));
+   OR2  XLXI_17 (.I0(XLXN_66), 
+                .I1(Mode), 
+                .O(XLXN_87));
+   (* HU_SET = "XLXI_18_131" *) 
+   FJKC_HXILINX_setpass  XLXI_18 (.C(XLXN_21), 
+                                 .CLR(Lock), 
+                                 .J(Enable), 
+                                 .K(Enable), 
+                                 .Q(setpass_DUMMY));
+   AND2  XLXI_19 (.I0(setpass_DUMMY), 
+                 .I1(Enter), 
+                 .O(XLXN_30));
+   AND2  XLXI_21 (.I0(XLXN_30), 
+                 .I1(passtrue_DUMMY), 
+                 .O(XLXN_66));
+   AND2  XLXI_22 (.I0(XLXN_65), 
+                 .I1(XLXN_67), 
+                 .O(XLXN_68));
+   AND2  XLXI_24 (.I0(XLXN_64), 
+                 .I1(setpass_DUMMY), 
+                 .O(XLXN_65));
+   checking_MUSER_setpass  XLXI_25 (.checkpass1(checkpass1), 
+                                   .checkpass2(checkpass2), 
+                                   .checkpass3(checkpass3), 
+                                   .checkpass4(checkpass4), 
+                                   .checkpass5(checkpass5), 
+                                   .checkpass6(checkpass6), 
+                                   .checkpass7(checkpass7), 
+                                   .checkpass8(checkpass8), 
+                                   .pass1(pass1), 
+                                   .pass2(pass2), 
+                                   .pass3(pass3), 
+                                   .pass4(pass4), 
+                                   .pass5(pass5), 
+                                   .pass6(pass6), 
+                                   .pass7(pass7), 
+                                   .pass8(pass8), 
+                                   .Outchecking(XLXN_64));
+   FDC  XLXI_27 (.C(XLXN_88), 
+                .CLR(XLXN_83), 
+                .D(XLXN_68), 
+                .Q(passtrue_DUMMY));
+   INV  XLXI_28 (.I(XLXN_66), 
+                .O(XLXN_67));
+   OR2  XLXI_29 (.I0(Lock), 
+                .I1(Lock), 
+                .O(XLXN_83));
+   INV  XLXI_30 (.I(XLXN_87), 
+                .O(XLXN_21));
+   INV  XLXI_31 (.I(XLXN_30), 
+                .O(XLXN_88));
+endmodule

@@ -1,0 +1,7 @@
+MODULE multisegment
+	SUBMODULE Decoderto7segment
+		INSTANCE XLXI_1
+	SUBMODULE Decoderto7segment
+		INSTANCE XLXI_2
+	SUBMODULE clockdiv
+		INSTANCE XLXI_23
